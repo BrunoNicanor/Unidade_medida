@@ -1,0 +1,73 @@
+body{
+    font-family: lato, roboto, sans-serif;
+}
+
+h1{
+    font-size: 3em;
+    font-family: Segoe UI, Tahoma, Geneva, sans-serif;
+    text-decoration: underline;
+}
+
+h2{
+    font-size: 2em;
+    color: crimson;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;;
+}
+
+.info{
+    font-family: roboto, lato, sans-serif;    
+}
+
+p>strong{
+    color: red;
+}
+
+#titulo{
+    font-family: Segoe UI, Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+
+    border-radius: 5px;
+    background-color: gold;
+    padding: 3px;
+
+    display: inline-block;
+    margin-top: 0px;
+}
+
+/*Unidades de medida*/
+#px{
+    font-size: 30px;
+}
+
+#em{
+    font-size: 2em;
+}
+
+#rem{
+    font-size: 3rem;
+}
+
+#vw{
+    font-size: 3vw;
+}
+
+#vh{
+    font-size: 3vh;
+}
+
+#porc{
+    font-size: 200%;
+}
+
+#vmin{
+    font-size: 2vmin;
+}
+ 
+#vmax{
+    font-size: 2vmax;
+}
+ 

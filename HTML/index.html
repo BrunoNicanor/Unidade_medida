@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Unidade de medida</title>
+
+    <link rel="stylesheet" href="../CSS/estilo.css">
+
+</head>
+<body>
+    <h1>Unidade de medida Absoluta</h1>
+    <h2>Px</h2>
+    <p id="px">Este texto tem um tamanho de 30px</p>
+    <p class="info"><strong>O que faz: </strong>A medida não muda independente do elemento pai.</p>
+    <hr>
+
+    <h1>Unidade de medida Relativa</h1>
+    <p id="titulo">Por padrão, body tem define a fonte de texto com 16px. Então toda definição relativa, terá como base estes 16px.</p>
+    
+    <h2>Em</h2>
+    <p id="em">Este texto tem um tamanho de 2em</p>
+    <p class="info"><strong>O que faz: </strong>Se baseia na medida do elemento pai e faz uma multiplicação simples. Por exemplo, uma div que possui como tamanho da fonte 12px, qualquer elemento que tenha 1em possuirá 12px de tamanho, ou se forem 2em então terá um tamanho de 24px e assim sucessivamente.</p>
+    <hr>
+
+    <h2>Rem</h2>
+    <p id="rem">Este texto tem um tamanho de 3rem</p>
+    <p class="info"><strong>O que faz: </strong>Mesmo comportamento do Em, mas ao invés de se basear no elemento pai, ele se baseia no elemento root (html).</p>
+    <hr>
+    
+    <h2>Vw</h2>
+    <p id="vw">Este texto tem um tamanho de 3vw</p>
+    <p class="info"><strong>O que faz: </strong>Porcentagem da LARGURA relativa ao Viewport (espaço visível da página na tela).</p>
+    <hr>
+    
+    <h2>Vh</h2>
+    <p id="vh">Este texto tem um tamanho de vh</p>
+    <p class="info"><strong>O que faz: </strong>Porcentagem da ALTURA relativa ao Viewport (espaço visível da página na tela).</p>
+    <hr>
+    
+    <h2>%</h2>
+    <p id="porc">Este texto tem um tamanho de 200%</p>
+    <p class="info"><strong>O que faz: </strong>Porcentagem relativo ao elemento pai.</p>
+    <hr>
+    
+    <h2>Vmin</h2>
+    <p id="vmin">Este texto tem um tamanho de 2vmin</p>
+    <p class="info"><strong>O que faz: </strong>Relativa a MENOR parte do Viewport, ou seja se a janela estiver com a largura menor que a altura, então será feita uma multiplicação simples tomando como base a largura do viewport naquele momento e vice versa. </p>
+    <hr>
+    
+    <h2>Vmax</h2>
+    <p id="vmax">Este texto tem um tamanho de 2vmax</p>
+    <p class="info"><strong>O que faz: </strong>Relativa a MAIOR parte do Viewport, ou seja se a janela estiver com a largura menor que a altura, então será feita uma multiplicação simples tomando como base a largura do viewport naquele momento e vice versa. </p>
+    <hr>
+    
+</body>
+</html>
