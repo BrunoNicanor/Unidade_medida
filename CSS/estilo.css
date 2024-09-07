@@ -2,7 +2,7 @@ body{
     font-family: lato, roboto, sans-serif;
 }
 
-h1{
+h1{    
     font-size: 3em;
     font-family: Segoe UI, Tahoma, Geneva, sans-serif;
     text-decoration: underline;
@@ -21,7 +21,7 @@ p{
     font-family: roboto, lato, sans-serif;    
 }
 
-p>strong{
+p>strong{ /*Seleciona a tag Strong que está dentro de P*/
     color: red;
 }
 
@@ -34,6 +34,7 @@ p>strong{
     background-color: gold;
     padding: 3px;
 
+    /*O elemento terminará exatamente onde o conteúdo do texto termina*/
     display: inline-block;
     margin-top: 0px;
 }
